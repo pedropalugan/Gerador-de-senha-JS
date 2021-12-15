@@ -1,0 +1,97 @@
+*{
+    color: black;
+    font-family: 'PT Sans', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #000000, 	#FF0000)
+}
+.main {
+    margin-left: 20%;
+    margin-top: 7.5%;
+    width: 65%;
+    border-radius: 2.5% 2.5% 2.5% 2.5%;
+    border: solid 0px white;
+    background-color: aliceblue;
+}
+
+.generate {
+    width: 25%;
+    border: solid 1px ;
+    border-radius: 10%;
+    background-color: white;
+}
+#copy {
+    width: 25%;
+    border: solid 1px gray;
+    border-radius: 10%;
+    background-color: white;
+}
+
+#len {
+    width: 25%;
+}
+
+.content {
+    display: grid;
+    padding: 5%;
+}
+
+#pw {
+    font-size: xx-large;
+    border: solid 0px transparent;
+    border-radius: 7.5% 7.5% 7.5% 7.5%;
+    background-color: white;
+    margin-bottom: 5%;
+    box-shadow: 5px 5px 5px black;
+}
+
+#copy:hover {
+    transition: 0.5s;
+    background-color: red;
+    border: solid 0px transparent;
+    border-radius: 15%; 
+}
+.generate:hover {
+    transition: 0.5s;
+    background-color: red;
+    border: solid 0px transparent;
+    border-radius: 25% 25% 25% 25%; 
+}
+
+@media(max-width: 1500px){
+    #pw {
+        font-size: x-large;
+    }
+}
+@media(max-width: 1250px){
+    #pw {
+        font-size: larger;
+    }
+}
+@media(max-width: 975px){
+    #pw {
+        font-size: large;
+    }
+}
+@media(max-width: 825px){
+    .main{
+    margin-left: 15%;
+    margin-top: 15%;
+    width: 75%;
+    }
+}
+
+@media(max-width: 435px){
+    #pw{
+        font-size: small;
+    }
+}
+
+.tt h1{
+    color: white;
+}
+.tt {
+    text-align: center;
+    margin-top: 5%;
+}

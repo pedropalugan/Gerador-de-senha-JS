@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel = "shortcut icon" href = "144-1447060_hashtag-symbol-png-imgkid-the-image-kid-has.png">
+    <title>Gerador de senha</title>
+</head>
+
+<body>
+    <div class = "tt">
+        <h1>Gerador de senha</h1>
+    </div>
+    <div class="main">
+        <div class="content">
+            <span id="pw">Edite sua senha</span>
+            <button id="copy">Copiar</button>
+            <br>
+
+            <label for="len">Tamanho da senha</label>
+            <input type="number" id="len" value="8" min="8" max="25">
+            <br>
+            <label for="upper">Letra Maiúscula</label>
+            <input type="checkbox" id="upper">
+            <br>
+            <label for="lower">Letra Minúscula</label>
+            <input type="checkbox" id="lower">
+            <br>
+            <label for="number">Número</label>
+            <input type="checkbox" id="number">
+            <br>
+            <label for="symbol">Símbolos</label>
+            <input type="checkbox" id="symbol">
+            <br>
+            <button class="generate" id="generate">Gerar senha</button>
+        </div>
+    </div>
+
+    <script src="java.js" defer></script>
+</body>
+
+</html>
